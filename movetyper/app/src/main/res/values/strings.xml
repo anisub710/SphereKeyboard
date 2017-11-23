@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Movable Typer</string>
+    <string name="motion_input_label">Motion Input</string>
 </resources>
