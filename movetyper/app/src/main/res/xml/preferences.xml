@@ -3,8 +3,7 @@
     <ListPreference
         android:key="pref_sensitivity"
         android:title="Shake Sensitivity"
-        android:inputType="number"
-        android:defaultValue="15"
-        android:textSize="18sp"
+        android:entries="@array/pref_sensitivity_list"
+        android:entryValues="@array/pref_sensitivity_list"
     />
 </PreferenceScreen>
