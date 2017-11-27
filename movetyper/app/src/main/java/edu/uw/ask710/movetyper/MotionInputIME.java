@@ -96,12 +96,8 @@ public class MotionInputIME extends InputMethodService implements SensorEventLis
 
     @Override
     public void onStartInputView(EditorInfo info, boolean restarting) {
-        if(info.inputType != InputType.TYPE_CLASS_TEXT){
-            //CHECK THIS
-            inputManager.showSoftInput(getWindow().getCurrentFocus(), 0);
-            Log.v(TAG, "Wrong input type");
-        }else{
-            Log.v(TAG, "Right input type");
+        if(info.inputType != InputType.TYPE_CLASS_TEXT) {
+            inputManager.showInputMethodPicker();
         }
         super.onStartInputView(info, restarting);
     }
@@ -199,6 +195,7 @@ public class MotionInputIME extends InputMethodService implements SensorEventLis
                 return true;
             }
         }
+
         return false;
     }
 
