@@ -5,5 +5,6 @@
         android:title="Shake Sensitivity"
         android:entries="@array/pref_sensitivity_list"
         android:entryValues="@array/pref_sensitivity_list"
+        android:defaultValue="25"
     />
 </PreferenceScreen>

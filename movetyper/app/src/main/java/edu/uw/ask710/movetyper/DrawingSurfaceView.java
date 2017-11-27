@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+//borrowed DrawingSurfaceView from Joel's lecture code and made a few changes.
+
 /**
  * An example SurfaceView for generating graphics on
  * @author Joel Ross

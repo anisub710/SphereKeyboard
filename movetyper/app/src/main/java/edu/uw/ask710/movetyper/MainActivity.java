@@ -12,6 +12,7 @@ import android.view.inputmethod.InputConnection;
 
 import java.util.Arrays;
 
+//Holds instructions and edittext area.
 public class MainActivity extends AppCompatActivity{
 
     private static final String TAG = "MainActivity";
@@ -21,7 +22,6 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
     }
 }

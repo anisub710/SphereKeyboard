@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Anirudh Subramanyam on 11/25/2017.
  */
 
+//activity that allows users to change sensitivity of the shake
 public class SettingsActivity extends AppCompatActivity{
 
     @Override

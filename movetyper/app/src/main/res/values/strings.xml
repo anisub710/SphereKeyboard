@@ -11,7 +11,7 @@
     up and down). To get the thinking emoji, change the device\'s position (move the whole device
     forward, backward, upward or downward, which will make the ball perform a pulse animation).
     The picked up motion will reflect on the ball\'s movement and a feedback vibration. The sensitivity
-    can be set by pushing the "Settings" button (default is 15 m/s^2). Try it out below (remember to
+    can be set by pushing the "Settings" button (default is 25 m/s^2). Try it out below (remember to
     set your keyboard to Motion Input)</string>
 
     <!-- Strings related to Settings -->
