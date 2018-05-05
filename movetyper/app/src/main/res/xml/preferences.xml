@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_sensitivity"
+        android:title="Shake Sensitivity"
+        android:entries="@array/pref_sensitivity_list"
+        android:entryValues="@array/pref_sensitivity_list"
+        android:defaultValue="25"
+    />
+</PreferenceScreen>

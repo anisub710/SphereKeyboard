@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movable Typer</string>
+    <string name="motion_input_label">Motion Input</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="instructions">Welcome to Movable Typer! This application allows you to try the Motion
+    Input Keyboard. When selected, a ball appears which indicates the direction in which the device\'s
+    motion has been recognized (based on the sensitivity level set in the settings). To get the
+    tired emoji, shake the device to the left or the right (which will make the ball bounce from left
+    to right). To get the laughing emoji, move the device up or down (which will make the ball bounce
+    up and down). To get the thinking emoji, change the device\'s position (move the whole device
+    forward, backward, upward or downward, which will make the ball perform a pulse animation).
+    The picked up motion will reflect on the ball\'s movement and a feedback vibration. The sensitivity
+    can be set by pushing the "Settings" button (default is 25 m/s^2). Try it out below (remember to
+    set your keyboard to Motion Input)</string>
+
+    <!-- Strings related to Settings -->
+
+    <string-array name="pref_sensitivity_list">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+
+
+</resources>
